@@ -1,0 +1,29 @@
+{
+  "gameArea": {
+    "width": 500,
+    "height": 500,
+    "background": "#000",
+    "border": "1px solid #fff"
+  },
+  "snake": {
+    "initialPosition": [
+      [0, 0],
+      [2, 0]
+    ],
+    "dotSize": 18,
+    "color": "#fff",
+    "initialDirection": "RIGHT",
+    "initialSpeed": 200,
+    "speedIncrement": 10,
+    "minSpeed": 10
+  },
+  "food": {
+    "size": 18,
+    "color": "red"
+  },
+  "grid": {
+    "min": 1,
+    "max": 98,
+    "step": 2
+  }
+}
